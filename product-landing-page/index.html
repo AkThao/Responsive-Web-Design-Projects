@@ -3,38 +3,50 @@
 
 <head>
     <title>Product Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
     <header id="header">
-        <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png"
-            alt="original trombones logo">
-        <nav id="nav-bar">
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">How It Works</a>
-            <a class="nav-link" href="#">Pricing</a>
-        </nav>
+        <div id="header-container">
+            <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png"
+                alt="original trombones logo">
+            <nav id="nav-bar">
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">How It Works</a>
+                <a class="nav-link" href="#">Pricing</a>
+            </nav>
+        </div>
     </header>
-    <main>
-        <p>Handcrafted, home-page masterpieces</p>
+    <main id="main">
         <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <input id="email" type="email" name="email" placeholder="Enter your email address" required>
+            <p id="title">Handcrafted, home-made masterpieces</p>
+            <input id="email" type="email" name="email" placeholder="Enter your email address" required><br>
             <input id="submit" type="submit" value="GET STARTED">
         </form>
         <div class="features">
-            <p>Premium Materials</p>
-            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
-                purchase.</p>
+            <img class="icon" src="images/local_fire_department-24px.svg" alt="fire">
+            <div>
+                <p>Premium Materials</p>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
+                    purchase.</p>
+            </div>
         </div>
         <div class="features">
-            <p>Fast Shipping</p>
-            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free
-                returns if you are not satisfied.</p>
+            <img class="icon" src="images/local_shipping-24px.svg" alt="fire">
+            <div>
+                <p>Fast Shipping</p>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free
+                    returns if you are not satisfied.</p>
+            </div>
         </div>
         <div class="features">
-            <p>Quality Assurance</p>
-            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the
-                pitch of your instrument.</p>
+            <img class="icon" src="images/battery_full-24px.svg" alt="fire">
+            <div>
+                <p>Quality Assurance</p>
+                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the
+                    pitch of your instrument.</p>
+            </div>
         </div>
         <iframe id="video" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0"></iframe>
         <div id="pricing">
