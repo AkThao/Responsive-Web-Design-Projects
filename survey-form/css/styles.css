@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "textFont";
+    src: url("../fonts/Baloo2/Baloo2-Medium.ttf");
+}
+
+body {
+    background-color: rgba(120, 109, 228, 40%);
+}
+
+.title-text {
+    font-family: "textFont";
+    font-size: 35px;
+    padding: 20px 0px 5px 0px;
+}
+
+.description-text {
+    font-family: "textFont";
+    font-size: 20px;
+    font-style: italic;
+    padding: 5px 0px 30px 0px;
+}
+
+.text {
+    font-family: "textFont";
+    color: white;
+}
+
+#title {
+    margin: auto;
+    text-align: center;
+}
+
+#description {
+    margin: auto;
+    text-align: center;
+}
+
+#form-block {
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(51, 0, 102, 80%);
+    border-radius: 1%;
+    width: 80vw;
+    max-width: 800px;
+    font-size: 18px;
+}
+
+#survey-form {
+    position: relative;
+    text-align: left;
+    left: 10%;
+    top: 5%;
+    width: 90%;
+}
+
+#name {
+    border-radius: 0.25rem;
+    border: none;
+    width: 98.25%;
+    height: 30px;
+    margin: 5px 0px 10px 0px;
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+}
+
+#email {
+    border-radius: 0.25rem;
+    border: none;
+    width: 98.25%;
+    height: 30px;
+    margin: 5px 0px 10px 0px;
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+}
+
+#number {
+    border-radius: 0.25rem;
+    border: none;
+    width: 98.25%;
+    height: 30px;
+    margin: 5px 0px 10px 0px;
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+}
+
+.dropdown {
+    border-radius: 0.25rem;
+    border: none;
+    width: 100%;
+    height: 30px;
+    margin: 5px 0px 10px 0px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+#comment-box {
+    border-radius: 0.25rem;
+    border: none;
+    width: 98.25%;
+    height: 120px;
+    margin: 5px 0px 10px 0px;
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+}
+
+.question-block {
+    padding: 10px 0px 10px 0px;
+    width: 90%;
+}
+
+.name-block {
+    padding-top: 40px;
+}
+
+#submit {
+    color: white;
+    background-color: #4CAF50;
+    text-align: center;
+    border-radius: 0.25rem;
+    border: none;
+    width: 90%;
+    height: 40px;
+    margin: 10px 0px 50px 0px;
+    font-size: 16px;
+}
