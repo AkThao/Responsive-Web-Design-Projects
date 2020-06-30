@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(0, 0%, 90%);
+}
+
+@font-face {
+    font-family: "titleFont";
+    src: url("../fonts/Balsamiq_Sans/BalsamiqSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "textFont";
+    src: url("../fonts/Balsamiq_Sans/BalsamiqSans-Regular.ttf");
+}
+
+.regular-text {
+    font-family: "textFont";
+}
+
+#title {
+    font-family: "titleFont";
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+#tribute-info {
+    margin: auto;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+
+#timeline {
+    margin: auto;
+    max-width: 700px;
+    content-align: center;
+}
+
+li {
+    padding: 10px;
+}
+
+#img-div {
+    display: block;
+    background-color: #FFF;
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+#image {
+    display: block;
+    margin: auto;
+    /*width: 95%;*/
+    padding-bottom: 5px;
+    max-width: 100%;
+}
+
+#img-caption {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#quote {
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+}
+
+#footnote {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    padding: 10px 0px 30px 0px;
+}
