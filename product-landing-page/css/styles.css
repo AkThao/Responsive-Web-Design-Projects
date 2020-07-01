@@ -25,9 +25,11 @@ body {
 #header {
     position: fixed;
     width: 100vw;
+    left: 0;
     height: 74px;
     top: 0;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(200, 200, 200);
+    z-index: 10;
 }
 
 #header-container {
@@ -95,10 +97,70 @@ body {
     outline: none;
 }
 
-.features {
-    display: flex;
+#features {
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    max-width: 1000px;
 }
 
 .icon {
     height: 50px;
+    width: 50px;
+    padding-right: 50px;
+}
+
+.feature {
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1000px;
+}
+
+.feature-text {
+    max-width: 900px;
+    text-align: left;
+}
+
+.feature-title {
+    font-family: DosisBold;
+    font-size: 25px;
+}
+
+.feature-paragraph {
+    font-family: DosisRegular;
+    font-size: 20px;
+}
+
+#video {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    width: 560px;
+    height: 315px;
+}
+
+#pricing {
+    position: relative;
+    display: flex;
+    max-width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.price-card {
+    width: 30%;
+    max-width: 300px;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.price-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
