@@ -2,19 +2,20 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
     <title>Product Landing Page</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
     <header id="header">
-        <div id="header-container">
+        <div id="header-content">
             <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png"
                 alt="original trombones logo">
             <nav id="nav-bar">
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">How It Works</a>
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#features">Features</a>
+                <a class="nav-link" href="#video">How It Works</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
             </nav>
         </div>
     </header>
@@ -60,46 +61,60 @@
         <section id="pricing">
             <div class="price-card">
                 <div class="price-info">
-                    <p>TENOR TROMBONE</p>
-                    <p>$600</p>
-                    <p>Lorem ipsum.</p>
-                    <p>Lorem ipsum.</p>
-                    <p>Lorem ipsum dolor.</p>
-                    <p>Lorem ipsum.</p>
-                    <button>SELECT</button>
+                    <div class="item-name">
+                        <p>TENOR TROMBONE</p>
+                    </div>
+                    <div class="item-price">
+                        <p>£480</p>
+                    </div>
+                    <div class="item-description">
+                        <p>Lorem ipsum.</p>
+                        <p>Lorem ipsum.</p>
+                        <p>Lorem ipsum dolor.</p>
+                        <p>Lorem ipsum.</p>
+                    </div>
+                    <button class="item-button">SELECT</button>
                 </div>
             </div>
             <div class="price-card">
                 <div class="price-info">
-                    <p>BASS TROMBONE</p>
-                    <p>$900</p>
-                    <p>Lorem ipsum.</p>
-                    <p>Lorem ipsum.</p>
-                    <p>Lorem ipsum dolor.</p>
-                    <p>Lorem ipsum.</p>
-                    <button>SELECT</button>
+                    <div class="item-name">BASS TROMBONE</div>
+                    <div class="item-price">
+                        <p>£720</p>
+                    </div>
+                    <div class="item-description">
+                        <p>Lorem ipsum.</p>
+                        <p>Lorem ipsum.</p>
+                        <p>Lorem ipsum dolor.</p>
+                        <p>Lorem ipsum.</p>
+                    </div>
+                    <button class="item-button">SELECT</button>
                 </div>
             </div>
             <div class="price-card">
                 <div class="price-info">
-                    <p>VALVE TROMBONE</p>
-                    <p>$1200</p>
-                    <p>Plays similar to a trumpet</p>
-                    <p>Great for Jazz Bands</p>
-                    <p>Lorem ipsum dolor.</p>
-                    <p>Lorem ipsum.</p>
-                    <button>SELECT</button>
+                    <div class="item-name">VALVE TROMBONE</div>
+                    <div class="item-price">
+                        <p>£960</p>
+                    </div>
+                    <div class="item-description">
+                        <p>Plays similar to a trumpet</p>
+                        <p>Great for Jazz Bands</p>
+                        <p>Lorem ipsum dolor.</p>
+                        <p>Lorem ipsum.</p>
+                    </div>
+                    <button class="item-button">SELECT</button>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
+    <footer id="footer">
         <nav id="footer-nav-bar">
             <a class="footer-nav-link" href="#">Privacy</a>
             <a class="footer-nav-link" href="#">Terms</a>
             <a class="footer-nav-link" href="#">Contact</a>
         </nav>
-        <p>Copyright 2016, Original Trombones</p>
+        <p id="footer-copyright-note">Copyright 2016, Original Trombones</p>
     </footer>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
