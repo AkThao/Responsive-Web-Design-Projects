@@ -1,0 +1,75 @@
+@font-face {
+    font-family: PoppinsRegular;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: PoppinsSemiBold;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: PoppinsExtraLightItalic;
+    src: url(../fonts/Poppins/Poppins-ExtraLightItalic.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(190, 50, 67);
+    position: fixed;
+    top: 0;
+    border-bottom: 2px solid black;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: "PoppinsRegular";
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+.nav-link:hover {
+    background-color: darkslateblue;
+}
+
+.nav-link:last-child {
+    margin-right: 20px;
+}
+
+#welcome-section {
+    padding-top: 70px;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(54, 57, 59), rgb(28, 27, 29));
+}
+
+#welcome-section div {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -100%);
+}
+
+#welcome-section h1 {
+    color: white;
+    font-family: "PoppinsSemiBold";
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 0;
+}
+
+#welcome-section h3 {
+    color: rgb(190, 50, 67);
+    font-family: "PoppinsExtraLightItalic";
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+}
